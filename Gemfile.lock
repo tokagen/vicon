@@ -61,6 +61,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   guard
   guard-rspec
   interactor

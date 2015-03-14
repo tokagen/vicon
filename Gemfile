@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 gem 'interactor'
+gem 'bundler'
 
 group :test do
   gem 'guard'
