@@ -12,6 +12,7 @@ describe Vicon::Controller do
   end
 
   context 'with failing context' do
+    before(:each) { context.fail! rescue false }
     it 'fails' do
       expect(subject).to be_failure
     end
