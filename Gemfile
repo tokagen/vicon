@@ -3,10 +3,14 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 gem 'interactor'
-gem 'rspec'
 
-gem 'guard'
-gem 'guard-rspec'
-gem 'pry'
-gem 'rake'
+group :test do
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'rake'
+  gem 'rspec'
+end
 
+group :development do
+  gem 'pry'
+end
