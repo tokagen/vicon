@@ -1,2 +1,2 @@
+# $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'vicon'
-Dir[File.expand_path("../suport/*.rb", __FILE__)].each { |f| require f }
