@@ -1,4 +1,5 @@
 require 'interactor'
+
 module Vicon
   class Controller
     include Interactor
